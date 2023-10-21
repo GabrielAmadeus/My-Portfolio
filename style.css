@@ -357,49 +357,41 @@ header {
 .icon{ /* Icon Link Position */
     display: flex;
     justify-content: center;
-    gap: 70px;
+    gap: 60px;
 }
 .sm-icon { /* Icon Link Design */
-    font-size: 30px;
+    font-size: 23px;
     margin-top: 25px;
-    padding: 10px 1rem;
+    padding: 7px 0.7rem;
     color: rgb(255, 255, 255);
-    background-size: 100% 100%;
-    background-position: center center;
-    border: 2px solid transparent;
     border-radius: 15px;
-    transition: background-color 0.3s, border-color 0.3s, color 0.3s, box-shadow 0.3s; /* Add smooth transitions */
+    transition: all 0.3s; /* Add smooth transitions */
 }
 
 /* Magic Icon Hovers */
 #instagram:hover {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-image: linear-gradient(45deg, rgb(254, 218, 117) 0%, #FF00A7 100%);
     border-radius: 15px;
-    color: #FF00A7;
     box-shadow: #FF00A7 0px 1px 20px;
 }
 #whatsapp:hover{
-    background-color: rgba(255, 255, 255, 0.9);
+    background-image: linear-gradient(360deg, #238C7E 0%, #25D366 100%);
     border-radius: 15px;
-    color: #25D366;
     box-shadow: #25D366 0px 1px 20px;
 }
 #github:hover{
-    background-color: rgba(255, 255, 255, 0.9);
+    background-image: linear-gradient(360deg, black 0%, #24292E 100%);
     border-radius: 15px;
-    color: rgb(20, 20, 20);
     box-shadow: rgb(230, 230, 230) 0px 1px 20px;
 }
 #facebook:hover{
-    background-color: rgba(255, 255, 255, 0.9);
+    background-image: linear-gradient(360deg, rgb(0, 0, 255) 0%, #1877F2 100%);
     border-radius: 15px;
-    color: #1877F2;
     box-shadow: #1877F2 0px 1px 20px;
 }
 #youtube:hover{
-    background-color: rgba(255, 255, 255, 0.9);
+    background-image: linear-gradient(360deg, #A00000 0%, #FF0000 100%);
     border-radius: 15px;
-    color: #FF0000;
     box-shadow: #FF0000 0px 1px 20px;
 }
 
